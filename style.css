@@ -34,4 +34,31 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
-}
+  display: flex;
+  flex-direction: column;
+    width: 50%;
+  }
+  form div input{
+    width: 100%;
+    margin: 8px 0;
+    padding: 5px;
+  }
+  #tasks{
+    width: 100%;
+  }
+
+  li button{
+    background-color: rgb(70, 70, 112);
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+  }
+  #tasks li{
+  list-style: none;
+  text-transform: capitalize;
+
+  }
+  .inputSomething::placeholder{
+    color: red;
+  }
+
